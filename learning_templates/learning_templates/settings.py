@@ -25,7 +25,10 @@ SECRET_KEY = '9aq*3c=)l%z0%by=l8+&mgub5hjvpp96-m1)f4oa5-w!+e*$hy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#done changes to the below list as per suggested while trying to execute the file over the web
+ALLOWED_HOSTS = [
+    'aayushkumar.pythonanywhere.com',
+]
 
 
 # Application definition
